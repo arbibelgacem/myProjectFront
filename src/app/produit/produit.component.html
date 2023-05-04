@@ -1,0 +1,44 @@
+<!--<p>produit works!</p>
+{{email}}
+<br>
+<br>
+<br>
+<div class="container" *ngIf="listeProduit">
+  <div class="panel panel-primary">
+    <div class="panel-heading">Liste des categories</div>
+    <div class ="panel-body">
+      <span *ngFor="let p of listeProduit.embedded.categories">
+        <button (click)="onGetProduit()" ="btn btn-primary">{{ p.nom }}</button></span>*
+
+    </div>
+  </div>
+</div>
+<table *ngIf="listeProduit !=0" class="table">
+<tr>
+  <th>id categorie</th>
+  <th>nom categorie</th>
+  <th>photo categorie</th>
+</tr>
+<tr *ngFor="let p of listeProduit._embeddeb.categorie">
+
+  <td>{{p.id}}</td>
+  <td>{{p.nom}}</td>
+  <td>{{p.photo}}</td>
+</tr>
+</table>-->
+<p>produit works!</p>
+
+<table *ngIf="listeCompte">
+  <tr>
+    <th>  code</th> <th>  solde</th> <th>  date</th>
+  </tr>
+  <tr *ngFor="let f of listeCompte">
+
+    <td>{{f.email}}</td>
+    <td>{{f.getProduitList}}</td>
+    <td>{{f.listeCompte}}</td>
+
+  </tr>
+</table>
+
+
